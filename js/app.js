@@ -141,3 +141,9 @@ console.log(bank_account);
 
 // Multiples of 3 and 5
 // I've already done this!
+
+// ARRAYS AND CONTROL FLOW
+// Talk about it
+// 1) The things in an array are called elements.
+// 2) Arrays guarantee that the order of elements is maintained.
+// 3) A real-life thing modelable by an array is a file cabinet filled with files.
