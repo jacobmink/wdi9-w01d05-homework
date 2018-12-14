@@ -261,3 +261,11 @@ console.log(thomsCloset);
 
 // printGreeting
 // I've already done this!
+
+// printCool
+const printCool = (name)=>{
+    return `${name} is cool`;
+}
+
+console.log(printCool('Captain Reynolds'));
+
