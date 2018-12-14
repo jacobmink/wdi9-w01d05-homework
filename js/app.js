@@ -256,3 +256,8 @@ const item3 = thomsCloset[2][2];
 console.log(`Thom is looking fierce in a ${item1}, ${item2}, and ${item3}!`);
 thomsCloset[1][2] = 'footie pajamas';
 console.log(thomsCloset);
+
+// FUNCTIONS
+
+// printGreeting
+// I've already done this!
