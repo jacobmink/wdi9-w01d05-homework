@@ -307,3 +307,19 @@ const getMultipleLengths = (arr)=>{
     return length_arr;
 }
 console.log(getMultipleLengths(['Yo','What','is','the','deal']));
+
+// maxOfThree
+const maxOfThree = (num1,num2,num3)=>{
+    let biggest;
+    if (num1 >= num2 && num1 >= num3){
+        biggest = num1;
+    }
+    else if (num2 >= num1 && num2 >= num3){
+        biggest = num2;
+    }
+    else if (num3 >= num1 && num3 >= num2){
+        biggest = num3;
+    }
+    return biggest;
+}
+console.log(maxOfThree(6,9,9));
