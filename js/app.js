@@ -138,3 +138,6 @@ const sumMoney2 = (num)=>{
 
 bank_account = sumMoney2(100);
 console.log(bank_account);
+
+// Multiples of 3 and 5
+// I've already done this!
