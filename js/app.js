@@ -274,3 +274,19 @@ const calculateCube = (num)=>{
     return num*num*num;
 }
 console.log(calculateCube(5));
+
+// isVowel
+const isVowel = (char)=>{
+    const vowels = ['a','e','i','o','u'];
+    char = char.toLowerCase();
+    for (let i = 0; i < vowels.length; i++) {
+        if (vowels.indexOf(char) > -1){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+}
+
+console.log(isVowel('y'));
