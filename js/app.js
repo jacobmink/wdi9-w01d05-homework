@@ -173,3 +173,19 @@ ourClass[ourClass.length - 1] = 'Octocat';
 ourClass.push('Cloud City');
 
 console.log(ourClass);
+
+// Mix it Up
+const myArray = [5, 10, 500, 20];
+// 1)
+myArray.push('Egon');
+myArray.push('Venkman');
+// 2)
+myArray.shift();
+// 3)
+myArray.unshift('Bob Marley');
+// 4)
+myArray.pop();
+// 5)
+myArray.reverse(); // .reverse() mutated the original array and did not return anything
+// console.log(myArray);
+
