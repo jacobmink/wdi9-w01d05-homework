@@ -42,3 +42,15 @@ console.log(e == 'Kevin');
 console.log(a + b == c);
 console.log(a * a == d);
 console.log(48 == '48');
+
+// The farm
+const animal = 'cow';
+const animalFarm = (param)=>{
+    if (param == 'cow'){
+        console.log('Moooooo');
+    } else {
+        console.log("Hey! You're not a cow.");
+    }
+}
+
+animalFarm(animal);
