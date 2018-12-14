@@ -189,3 +189,11 @@ myArray.pop();
 myArray.reverse(); // .reverse() mutated the original array and did not return anything
 // console.log(myArray);
 
+// Biggie Smalls
+const intVar = 60;
+if (intVar < 100) {
+    console.log('little number');
+}
+else {
+    console.log('big number');
+}
