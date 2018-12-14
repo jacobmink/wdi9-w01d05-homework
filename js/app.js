@@ -350,3 +350,15 @@ const transmogrify = (num1,num2,num3)=>{
 
 console.log(transmogrify(5,3,2));
 
+// reverseWordOrder v2
+const reverseWordOrder = (multiWordStr)=>{
+    const reverse_arr = [];
+    let str_arr = multiWordStr.split(' ');
+    for (let i = str_arr.length - 1; i > -1; i--){
+        reverse_arr.push(str_arr[i]);
+    }
+    let back_str = reverse_arr.join(' ');
+    return back_str;
+}
+
+console.log(reverseWordOrder("Ishmael me Call"));
