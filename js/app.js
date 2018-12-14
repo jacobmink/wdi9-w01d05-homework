@@ -54,3 +54,16 @@ const animalFarm = (param)=>{
 }
 
 animalFarm(animal);
+
+// Driver's Ed
+const ageVar = 16;
+const ageFun = ()=>{
+    if (ageVar > 15) {
+        console.log('Here are the keys');
+    }
+    else {
+        console.log("Sorry, you're too young");
+    }
+}
+
+ageFun();
