@@ -67,3 +67,20 @@ const ageFun = ()=>{
 }
 
 ageFun();
+
+// LOOPS
+// The basics
+// 1)
+for (let i = 0; i < 11; i++) {
+    console.log(i);
+}
+
+// 2)
+for (let i = 0; i < 401; i++) {
+    console.log(i);
+}
+
+// 3)
+for (let i = 12; i < 4001; i+=3) {
+    console.log(i);
+}
