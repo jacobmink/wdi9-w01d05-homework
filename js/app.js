@@ -190,10 +190,21 @@ myArray.reverse(); // .reverse() mutated the original array and did not return a
 // console.log(myArray);
 
 // Biggie Smalls
-const intVar = 60;
+const intVar = 7;
 if (intVar < 100) {
     console.log('little number');
 }
 else {
     console.log('big number');
+}
+
+// Monkey in the Middle
+if (intVar < 5) {
+    console.log('little number');
+}
+else if (intVar > 10) {
+    console.log('big number');
+}
+else {
+    console.log('monkey');
 }
