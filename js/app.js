@@ -113,3 +113,28 @@ for (let i = 0; i < 101; i++) {
         console.log(`I found a ${i}. Three is a crowd`);
     }
 }
+
+// Saving Account
+// 1)
+const sumMoney = (num)=>{
+    let sum = 0;
+    for (let i = 0; i < num + 1; i++){
+        sum += i;
+    }
+    return sum;
+}
+
+let bank_account = sumMoney(10);
+console.log(bank_account);
+
+// 2)
+const sumMoney2 = (num)=>{
+    let sum = 0;
+    for (let i = 0; i < num + 1; i++){
+        sum += i;
+    }
+    return sum*2;
+}
+
+bank_account = sumMoney2(100);
+console.log(bank_account);
