@@ -153,3 +153,12 @@ console.log(bank_account);
 const quotes = ['Never give up, never surrender',
                 "They can take our country, but they'll never take our freedom",
                 "You shall know my name is the Lord when I lay my vengeance upon you"];
+
+// Accessing elements
+const randomThings = [1, 10, "Hello", true];
+// 1) 
+randomThings[0];
+// 2)
+randomThings[2] = 'World';
+// 3)
+console.log(randomThings);
