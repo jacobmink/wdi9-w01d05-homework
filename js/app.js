@@ -290,3 +290,9 @@ const isVowel = (char)=>{
 }
 
 console.log(isVowel('y'));
+
+// getTwoLengths
+const getTwoLengths = (str1,str2)=>{
+    return [str1.split('').length,str2.split('').length];
+}
+console.log(getTwoLengths('Jake', 'Minkopus'));
