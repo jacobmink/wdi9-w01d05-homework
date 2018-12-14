@@ -143,7 +143,13 @@ console.log(bank_account);
 // I've already done this!
 
 // ARRAYS AND CONTROL FLOW
+
 // Talk about it
 // 1) The things in an array are called elements.
 // 2) Arrays guarantee that the order of elements is maintained.
 // 3) A real-life thing modelable by an array is a file cabinet filled with files.
+
+// Easy Does It
+const quotes = ['Never give up, never surrender',
+                "They can take our country, but they'll never take our freedom",
+                "You shall know my name is the Lord when I lay my vengeance upon you"];
