@@ -296,3 +296,14 @@ const getTwoLengths = (str1,str2)=>{
     return [str1.split('').length,str2.split('').length];
 }
 console.log(getTwoLengths('Jake', 'Minkopus'));
+
+// getMultipleLengths
+const getMultipleLengths = (arr)=>{
+    let length_arr = [];
+    for (let i = 0; i < arr.length; i++){
+        let str_split = arr[i].split('');
+        length_arr.push(str_split.length);
+    }
+    return length_arr;
+}
+console.log(getMultipleLengths(['Yo','What','is','the','deal']));
