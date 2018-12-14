@@ -269,3 +269,8 @@ const printCool = (name)=>{
 
 console.log(printCool('Captain Reynolds'));
 
+// calculateCube
+const calculateCube = (num)=>{
+    return num*num*num;
+}
+console.log(calculateCube(5));
