@@ -417,3 +417,7 @@ user.email = 'newfake@nothing.ca';
 user.age++;
 
 // console.log(user);
+
+// Adding keys and values
+// 1)
+user.location = 'Branson, Missouri';
