@@ -421,3 +421,34 @@ user.age++;
 // Adding keys and values
 // 1)
 user.location = 'Branson, Missouri';
+
+// Shopaholic!
+// 1)
+user.purchased.push('carbohydrates');
+// 2)
+user.purchased.push('peace of mind');
+// 3)
+user.purchased.push('Merino jodhpurs');
+// 4)
+console.log(user.purchased[2]);
+
+// Object-within-object
+// 1)
+user.friend = {
+    name: "Alan Watts",
+    age: 85,
+    location: 'Mt. Denali',
+    purchased: []
+};
+// 2)
+console.log(user.friend.name);
+// 3)
+console.log(user.friend.location);
+// 4)
+user.friend.age = 55;
+// 5)
+user.friend.purchased.push('The One Ring');
+// 6)
+user.friend.purchased.push('A latte');
+// 7)
+console.log(user.friend.purchased[1]);
