@@ -462,3 +462,20 @@ for (let i = 0; i < user.purchased.length; i++) {
 for (let i = 0; i < user.friend.purchased.length; i++) {
     console.log(user.friend.purchased[i]);
 }
+
+// Functions can operate on objects
+// 1)
+const updateUser = ()=>{
+    user.age++;
+    user.name = user.name.toUpperCase();
+}
+// updateUser();
+// console.log(user);
+// 2)
+const oldAndLoud = (person)=>{
+    person.age++;
+    person.name = person.name.toUpperCase();
+}
+
+oldAndLoud(user);
+console.log(user);
