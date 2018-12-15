@@ -409,3 +409,11 @@ user.name = 'Jake';
 user.email = 'fake@nothing.ca';
 user.age = 46;
 user.purchased = [];
+
+// Update the user
+// 1)
+user.email = 'newfake@nothing.ca';
+// 2)
+user.age++;
+
+// console.log(user);
