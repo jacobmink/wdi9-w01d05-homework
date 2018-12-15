@@ -398,3 +398,14 @@ const getRandomElement = (arr)=>{
 }
 
 console.log(getRandomElement(quotes));
+
+// OBJECTS 
+
+// Make a user object
+// 1)
+const user = {};
+// 2)
+user.name = 'Jake';
+user.email = 'fake@nothing.ca';
+user.age = 46;
+user.purchased = [];
