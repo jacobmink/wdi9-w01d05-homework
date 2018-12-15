@@ -327,21 +327,17 @@ console.log(maxOfThree(6,9,9));
 // printLongestWord
 const printLongestWord = (str_arr)=>{
     
-    let longest;
-    for (let i = 0; i < str_arr.length - 1; i++){
-                if (str_arr[i].length >= str_arr[i + 1].length){
+    let longest = '';
+    for (let i = 0; i < str_arr.length; i++){
+                if (str_arr[i].length > longest.length){
                     longest = str_arr[i];
-                    console.log(longest);
-                }
-                else if (i == str_arr.length - 2){
-                    longest = str_arr[i+1];
                 }
         }
-    console.log(str_arr.length);
     return longest;
 }
 
-console.log(printLongestWord(["BoJaaaaaaaaaaaaaaaaaack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todddd"]));
+// console.log(printLongestWord(['thing1','thing2']));
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todddddddddddddddd"]));
 
 // transmogrify
 const transmogrify = (num1,num2,num3)=>{
@@ -362,3 +358,43 @@ const reverseWordOrder = (multiWordStr)=>{
 }
 
 console.log(reverseWordOrder("Ishmael me Call"));
+
+// Get down and dirty with Math.random()
+
+// 1)
+const rand_10 = ()=>{
+    return Math.round(Math.random()*10);
+}
+
+console.log(rand_10());
+
+// 2)
+const rand_100 = ()=>{
+    return Math.round(Math.random()*100);
+}
+
+console.log(rand_100());
+
+// 3)
+const rand_rand = ()=>{
+    return Math.floor(532 + Math.random()*(13267 - 532 + 1));
+}
+
+console.log(rand_rand());
+
+// 4)
+const rand_10_num = ()=>{
+    return Math.random()*10;
+}
+
+console.log(rand_10_num());
+
+// 5)
+quotes.push('Four score and seven years ago...','You\'d say give me five bees for a quarter!');
+const getRandomElement = (arr)=>{
+    for (let i = 0; i < arr.length; i++) {
+        return arr[Math.floor(Math.random()*arr.length)];
+    }
+}
+
+console.log(getRandomElement(quotes));
